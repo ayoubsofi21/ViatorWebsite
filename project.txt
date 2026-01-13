@@ -1,0 +1,86 @@
+La startup ExploreNow, spécialisée dans la réservation d’activités touristiques et d’expériences locales (excursions, visites guidées, activités culturelles), souhaite lancer une nouvelle plateforme web inspirée du modèle de Viator.
+Après une première phase de validation graphique, le chef de projet vous confie la mission de concevoir et développer uniquement la page d’accueil (Home) du site web, en respectant les bonnes pratiques du design UI/UX, du responsive design et des standards du web.
+HTML5
+Responsive design
+CSS3
+Référentiels
+Compétences transversales
+[2023] Développeur web et web mobile
+Ressources
+Site exemple
+W3C HTML Validation
+W3C CSS validation
+Contexte du projet
+Objectif du projet
+Créer une page d’accueil moderne, responsive et accessible, permettant à l’utilisateur de :
+
+Comprendre rapidement l’objectif du site
+Rechercher des activités touristiques
+Découvrir des destinations et activités populaires
+Être incité à explorer et réserver
+User stories – UI/UX Design
+En tant que Designer UI/UX, vous devez :
+
+Concevoir la maquette de la page Home :
+
+Wireframe (low-fidelity)
+Maquette finale (high-fidelity)
+Prototype interactif
+Adapter la maquette pour :
+
+Desktop
+Mobile
+---
+
+User Stories – Développement Front-end
+En tant que Développeur Front-end, vous devez :
+
+Analyser les maquettes fournies (découpage des sections)
+Intégrer la page Home
+Assurer la responsivité sur mobile et desktop
+Vous devez vérifier la conformité de votre code HTML et CSS à l’aide du validateur W3C :
+
+https://validator.w3.org/
+
+Tester l’accessibilité à l’aide d’au moins un outil d’audit :
+
+Lighthouse
+WAVE
+Axe DevTools
+Une preuve de validation (capture d’écran) doit être fournie dans les livrables.
+
+---
+
+Technologies autorisées
+Figma ou Adobe XD
+HTML5
+CSS3 ou Framework CSS (Bootstrap/tailwind)
+Bonus
+Implémenter la page destinations et details
+Intègrer les meilleures pratiques SEO (vitesse, sécurité, structure)
+Modalités pédagogiques
+Travail individuel.
+Durée : 3 jours.
+Date de lancement du brief : 13/01/2026 à 10h00.
+Date limite de soumission : 16/01/2026 avant 23h59 (lien dans simplonline).
+Derniere push sur GitHub le dimanche
+NB : Tout retard dans la livraison sur Simplonline entraînera automatiquement l'invalidité de toutes les compétences liées au Brief.
+
+Modalités d'évaluation
+Vous présenterez votre travail pendant 15 minutes : 
+ - 5 minutes : Présentation du projet .
+ - 5 minutes : Explication partie code.
+ - 5 minutes : évaluation des savoirs(Q/A).
+Livrables
+-Lien planification Trello
+- Lien vers le fichier Figma / Adobe XD
+- Lien GitHub du projet
+-Capture d’écran de la validation W3C 
+-Capture d’écran de la validation d'accessibilité
+Critères de performance
+| Respect du cahier des charges
+| Qualité UI/UX 
+| Responsive design
+| Validation W3C
+| Organisation du code
+|Respecter les normes d’accessibilité WCAG
