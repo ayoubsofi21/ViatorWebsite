@@ -1,13 +1,197 @@
 * {
-  /* margin: 10px; */
-  padding: 1px;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: #f8fafc;
+  color: #111827;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+  padding: 0 20px;
 }
 header {
   display: flex;
   justify-content: space-between;
-  background-color: antiquewhite;
-  border-radius: 10px;
+  align-items: center;
+  padding: 10px 0px;
+  background: #ffffff;
 }
-.righ_header .icon {
-  padding: 0;
+header .left_header,
+.right_header {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+svg {
+  cursor: pointer;
+}
+.discoverbutton {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111827;
+  border: none;
+  background: transparent;
+  border-radius: 999px;
+  cursor: pointer;
+}
+.discoverbutton:hover {
+  background: #f1f1f1;
+}
+
+.discoverbutton svg {
+  fill: #111827;
+}
+.righ_header {
+  display: flex;
+  align-items: center;
+}
+
+.righ_header > div {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.righ_header button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+}
+.profilUser button {
+  background: transparent;
+  border-radius: 999px;
+  cursor: pointer;
+  padding: 2px 2px;
+}
+.profilUser:hover {
+  background: #f1f5f9;
+  background-color: red;
+}
+
+.icon {
+  fill: #111827;
+}
+button.icons.user {
+  display: flex;
+  align-items: center;
+}
+button.icons.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  padding-left: 4px;
+}
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+  header > div {
+    gap: 20px;
+  }
+}
+/* hero */
+.Hero {
+  height: 70vh;
+  background-image: url("https://dynamic-media.tacdn.com/media/photo-o/31/e4/6e/9f/caption.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  max-width: 900px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 15px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+}
+
+.search-box {
+  background: #fff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  color: #000;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+  flex: 1;
+}
+
+.inputGroup label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.inputGroup input {
+  border: none;
+  outline: none;
+  font-size: 1rem;
+}
+
+.divider {
+  width: 1px;
+  height: 40px;
+  background: #ddd;
+}
+
+.search-btn {
+  background: #008060;
+  color: #fff;
+  border: none;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.search-btn:hover {
+  background: #006d52;
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+
+  .search-box {
+    flex-direction: column;
+    border-radius: 20px;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .search-btn {
+    margin-top: 15px;
+  }
 }
