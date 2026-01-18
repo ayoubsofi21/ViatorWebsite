@@ -20,6 +20,7 @@ body {
 }
 .container {
   width: 100%;
+  overflow: hidden;
 }
 header {
   display: flex;
@@ -92,7 +93,6 @@ svg {
 }
 .profilUser:hover {
   background: #f1f5f9;
-  background-color: red;
 }
 
 .icon {
@@ -120,11 +120,8 @@ button.icons img {
     gap: 20px;
   }
   header .discoverbutton,
-  .icon1 {
+  header .icon1 {
     display: none;
-  }
-  .icon1.user {
-    border-radius: none;
   }
   #menu-icon {
     display: block;
@@ -300,9 +297,15 @@ button.icons img {
     padding: 26px 10px;
     line-height: 6vh;
   }
-  .login-manage div {
+  .container-login {
+    display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .login-manage button {
+    /* padding: 2px 5px; */
+    width: 100%;
+    padding: 10px 30px !important;
   }
 
   .feature {
@@ -323,6 +326,9 @@ button.icons img {
   .Destinatin .image-container {
     width: 100%;
     height: auto;
+  }
+  .hero-content {
+    background-position: 80%;
   }
 }
 /* Navbar */
